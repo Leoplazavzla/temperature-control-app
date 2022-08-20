@@ -8,6 +8,7 @@ export const HotButton = styled.button`
     background-color: red;
     font-size: 30px;
     font-weight: bold;
+    cursor: pointer;
     color:white;
     font-size: 30px;
     display: flex;

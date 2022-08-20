@@ -11,6 +11,7 @@ export const ColdButton = styled.button`
     color:white;
     font-size: 30px;
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     `
