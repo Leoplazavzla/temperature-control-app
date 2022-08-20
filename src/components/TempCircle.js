@@ -4,10 +4,10 @@ export const TempCircle = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: auto;
-        width: 100px;
-        height: 100px;
+        margin-top: 60px;
+        width: 250px;
+        height: 250px;
         background-color: ${props => props.tempColor};
-        border: "black";
+        border: solid white 8px;
         border-radius: 50%
         `

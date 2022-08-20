@@ -13,7 +13,6 @@ function App() {
 
     const increaseDegrees = () => {
         setCounter(counter + 10)
-
     }
     const lowerDegrees = () => {
         setCounter(counter - 10)
@@ -24,7 +23,6 @@ function App() {
     },[counter])
 
     const changeColor = (value) => {
-        console.log(value)
         let degreeColor = ""
 
         switch (value) {
@@ -48,14 +46,13 @@ function App() {
         }
 
         setCircleColor(degreeColor)
-        console.log(degreeColor)
     }
 
   return (
     <div className="App">
       <h1>Temperature Control App</h1>
 
-      <section style={{width: 600, minHeight:900,}}>
+      <section style={{width: 400, minHeight:900}}>
         <TempGrid>
           <TempCircle tempColor={circleColor}>
               <Degrees>{counter}°C</Degrees>
